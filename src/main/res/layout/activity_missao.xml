@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/missaoApp"
+    tools:context=".MissaoActivity">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="723dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="100px"
+        android:paddingRight="100px"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100px" />
+
+        <TextView
+            android:id="@+id/titleMissao"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="@color/missaoApp"
+            android:backgroundTint="@color/missaoApp"
+            android:text="null"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200px" />
+
+        <TextView
+            android:id="@+id/textMissao"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:text="null" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="100px"
+            android:paddingRight="100px">
+
+            <Button
+                android:id="@+id/buttonHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/botoesApp"
+                android:text="Home"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/buttonVisao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/botoesApp"
+                android:text="Visão"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/buttonValores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/botoesApp"
+                android:text="Valores"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
